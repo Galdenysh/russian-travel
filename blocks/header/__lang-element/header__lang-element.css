@@ -1,8 +1,8 @@
-.header__lang-list {
+.header__lang-element {
   display: inline;
   margin-right: 18px;
 }
 
-.header__lang-list:last-of-type {
+.header__lang-element:last-of-type {
   margin-right: 0;
 }
