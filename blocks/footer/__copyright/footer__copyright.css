@@ -3,5 +3,24 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__copyright {
+    margin-right: 24px;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .footer__copyright {
+    margin: 48px 0 0 16px;
+    line-height: 1;
+    align-self: auto;
+  }
+  
 }

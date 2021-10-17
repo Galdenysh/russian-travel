@@ -3,7 +3,26 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   text-align: center;
-  width: 720px;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .lead__title {
+    font-size: 12.6vw;
+    /* чтобы шрифт не вываливался при уменьшении экрана */
+    line-height: 1.04;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  
 }

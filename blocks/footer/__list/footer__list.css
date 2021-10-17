@@ -5,3 +5,19 @@
   font-size: 0;
   /* выше убрал пробел для списка */
 }
+
+@media screen and (max-width: 768px) {
+
+  .footer__list {
+    margin-left: 24px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .footer__list {
+    margin-left: 16px;
+  }
+
+}

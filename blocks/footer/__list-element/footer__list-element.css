@@ -3,3 +3,16 @@
   margin-right: 18px;
 }
 
+@media screen and (max-width: 640px) {
+
+  .footer__list-element {
+    display: block;
+    margin-top: 32px;
+  }
+
+  .footer__list-element:first-child {
+    margin-top: 0;
+  }
+  
+}
+
